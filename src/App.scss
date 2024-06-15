@@ -39,6 +39,12 @@
     font-size: 20px;
 
 }
+.form__group {
+    position: relative;
+    
+    
+    width: 100%;
+  }
 
 .inputField{
     width: 100%;
@@ -50,6 +56,15 @@
     margin-top: 40px;
     padding: 3px 0;
 
+   
+
+}
+.labelIdEmail {
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 30px;
+    color: gray;
 }
 
 .inputFieldpassword{
@@ -82,5 +97,25 @@
     background-color: #000000;
     color: white;
     box-shadow: 0 1px 1px rgba($color: #000000, $alpha: 0.6);
+
+}
+
+@media  (max-width :700px) {
+    .contantdiv{
+        width: 90%;
+        margin: 2px;
+        
+    }
+    .spandiv{
+
+    }
+
+    
+}
+@media  (max-width :400px) {
+    .creatacc{
+        font-size: 16px;
+        margin-left: -70px;
+    }
 
 }
