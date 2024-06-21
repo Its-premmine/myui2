@@ -18,7 +18,7 @@ const App = () => {
                 <br />
                 
                 <input type="checkbox" name="checkbox1" id="checkbox1" className="checkbox"/>
-                <label for="checkbox1">Remember me</label>
+                <label htmlFor="checkbox1" className="checkbox">Remember me</label>
                 <br />
                 
                 <input type="submit" className="passBut"  value="SIGN IN" />
