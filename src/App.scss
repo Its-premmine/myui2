@@ -37,13 +37,13 @@ body{
     justify-content: space-between;
     flex-direction: row;
 
-    
+    color: gray
 }
 
 
 
 .signinbox{
-  
+    
     cursor: pointer;
     // margin-right: 130px;
     font-size: 20px;
@@ -51,10 +51,31 @@ body{
     
 }
 
+// .signinbox::after {
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     transform: scaleX(0);
+//     height: 2px;
+//     bottom: 0;
+//     left: 0;
+//     background-color: hsl(203, 36%, 4%);
+//     transform-origin: bottom right;
+//     transition: transform 0.25s ease-out;
+//   }
+  
+//   .signinbox:hover::after {
+//     transform: scaleX(1);
+//     transform-origin: bottom left;
+//   }
+
+.gray{
+    color: rgb(0, 0, 0);
+}
+
 .creatacc{
     cursor: pointer;
-    color: rgb(133, 131, 131);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     
 }
@@ -92,7 +113,23 @@ body{
 .checkbox{
     margin-top: 40px;
     cursor: pointer;
+    color: rgb(130, 127, 127);
     
+}
+
+.textBody{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(84, 81, 81);
+}
+
+.lostpass{
+    color: blue;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .passBut{
