@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 *,*::after,*::before{
     padding: 0;
     margin: 0;
@@ -6,7 +9,9 @@
 }
 
 body{
-    font-family: "Playfair Display", serif;
+
+    font-family: "Poppins", sans-serif;
+
 }
 
 .mainbody{
@@ -32,7 +37,7 @@ body{
 }
 
 .spandiv{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -88,7 +93,7 @@ body{
     border-bottom: 2px solid #e3e7e8;
     outline: 0;
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 3px 0;
 
    
@@ -104,7 +109,7 @@ body{
     border: none;
     border-bottom: 2px solid #e3e7e8;
     outline: 0;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 3px 0;
     
 
@@ -135,7 +140,7 @@ body{
 .passBut{
     padding: 0 80px;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 50px;
     width: 100%;
     border: none;
