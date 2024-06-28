@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.scss";
-import { useFormik } from "formik";
+import {  useFormik } from "formik";
 
 const initialValues = {
     email: "",
@@ -11,12 +11,15 @@ const initialValues = {
 
 const App = () => {
     const [action,setAction] = useState("newAccount")
-    const {values,handleSubmit,handleChange} = useFormik({
+    const {values,handleSubmit,handleChange} = 
+    useFormik({
         initialValues : initialValues,
-        onSubmit : (values) => {
+        onSubmit : (values,action) => {
             console.log(values);
             alert("login successful")
+            action.resetForm();
         }
+        
     })
 
     return(
@@ -32,6 +35,10 @@ const App = () => {
                 <span className={action === "newAccount"?"creatacc gray":"creatacc"}
                     onClick={() => {setAction("newAccount")}}
                     >Create An Account</span>
+                  
+                  
+                  
+                  
                     </div>
                 {action === "signin"?<div></div>:
                     
